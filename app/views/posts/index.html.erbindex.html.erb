@@ -1,9 +1,0 @@
-<% @post.each do |posts| %>
-<div>
-  <%= attachment_image_tag posts, :image %>
-  <!--<p>投稿ユーザー画像：<= image_tag('sample-author1.jpg') %></p>-->
-  <p>タイトル：<%= posts.shop_name %></p>
-  <p>説明：<%= posts.caption %></p>
-  <p>ユーザーネーム：<%= posts.user.name %></p>
-</div>
-<% end %>
