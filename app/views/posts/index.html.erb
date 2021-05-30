@@ -7,5 +7,6 @@
   <p>タイトル：<%= post.post_title %></p>
   <p>説明：<%= post.post_introduction %></p>
   <p>ユーザーネーム：<%= post.user.name %></p>
+  <p>♡<%=  "#{post.favorites.count} いいね" %></p>
 </div>
 <% end %>
