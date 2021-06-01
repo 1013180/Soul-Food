@@ -16,6 +16,7 @@ class PostsController < ApplicationController
 
   def show
      @post = Post.find(params[:id])
+     @favorite = @post.favorites.find_by(user_id: current_user.id)
   end
 
   def destroy
