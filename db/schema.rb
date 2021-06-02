@@ -24,6 +24,7 @@ ActiveRecord::Schema.define(version: 2021_05_30_102821) do
     t.integer "user_id", null: false
     t.string "post_image_id", null: false
     t.text "post_introduction"
+    t.integer "prefecture", default: 0, null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
