@@ -1,24 +1,37 @@
-# README
+## README
+# <ソウルフード>
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## サイト概要
+おすすめのソウルフードをシェア、全国各地のソウルフードを知ることができるＳＮＳサイト。
+おすすめの地元グルメの料理画像を、コメントと共に投稿することができる。
+また投稿については地域から検索して、投稿内容を知ることができる。
+投稿内容に「お気に入り」や「コメント」をすることでコミュニケーションが取れる。
+### サイトテーマ
+<ご当地のおすすめフードを発信・知ることができる>
 
-Things you may want to cover:
+### テーマを選んだ理由
+コロナ渦で長距離の移動が難しいなか、地元の良い所を再発見することができるＳＮＳサイトを作成したいと考えたから。
+また地元グルメを紹介するメディアは多数あるが、実際に地元民が食べているソウルフードの口コミ情報を集めたＳＮＳサイト
+はないと感じたから。
+### ターゲットユーザ
+・20~30代のグルメ・旅行に関心の強い若年層男女
 
-* Ruby version
+### 主な利用シーン
+・地元で自分の知らないグルメを知りたいと思ったとき
+・旅行先でほんとうに食べられているご当地グルメを知りたいと考えたとき
+・旅行先を決める。または旅行気分を味わいたいと考えたとき
 
-* System dependencies
 
-* Configuration
+## チャレンジ要素一覧
+<https://docs.google.com/spreadsheets/d/1UgK-6l38k5T81XjcTIn7CHnGRkB_sBXS5xQWAVhWmks/edit#gid=0>
 
-* Database creation
+## 開発環境
+- OS：Linux(CentOS)
+- 言語：HTML,CSS,JavaScript,Ruby,SQL
+- フレームワーク：Ruby on Rails
+- JSライブラリ：jQuery
+- IDE：Cloud9
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## 使用素材
+- 外部サービスの画像素材・音声素材を使用した場合は、必ずサービス名とURLを明記してください。
+- 使用しない場合は、使用素材の項目をREADMEから削除してください。
