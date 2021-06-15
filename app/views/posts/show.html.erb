@@ -8,6 +8,9 @@
   <div id="favorites_buttons_<%= @post.id %>">
     <%= render 'favorites/favorite', post: @post, favorite: @favorite %>
   </div>
+  <div id="comments_area">
+    <%= render 'comments/comment', post: @post, comment: @comment %>
+  </div>
   <% if @post.user == current_user %>
     <%= link_to "削除", post_path(@post), method: :delete, data: { confirm: '本当に消しますか？' }, class: "btn btn-sm btn-danger destroy_post_#{@post.id}" %>
   <% end %>
